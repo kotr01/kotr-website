@@ -1,0 +1,10 @@
+.eventItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.eventItemHead {
+  font-size: 1.4rem;
+}

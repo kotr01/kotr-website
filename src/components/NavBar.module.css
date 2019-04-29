@@ -1,0 +1,27 @@
+.logo {
+  width: 240px
+}
+
+.cart {
+  opacity: 0.5;
+  margin-left: 0.8rem; 
+  text-align: center;
+}
+
+.cart:hover {
+  opacity: 0.8;
+}
+
+.navLink {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 0.8rem; 
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    max-width: 200px;
+  }
+}

@@ -1,0 +1,12 @@
+$body-bg: #f2f2f2;
+
+$theme-colors: (
+  "primary": #2839ce,
+  "darkTransparent": rgba(0,0,0,0.65)
+);
+
+.minh-100vh {
+  min-height: 100vh;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

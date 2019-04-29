@@ -1,0 +1,33 @@
+.productCard {
+  display: flex;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 35rem;
+  margin: 0 auto 2rem auto;
+}
+
+.productCard:last-child {
+  margin-bottom: 0;
+}
+
+.productCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productCardImage {
+  width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .productCard {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .productCardImage {
+    width: 100%;
+  }
+} 
