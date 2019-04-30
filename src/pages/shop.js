@@ -11,7 +11,6 @@ const Shop = ({ data }) => {
       <Helmet>
         <title>Kings of the Road | Shop</title>
       </Helmet>
-      <h1>Shop</h1>
       <ShopMain data={data} />
     </Layout>
   )

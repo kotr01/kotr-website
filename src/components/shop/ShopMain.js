@@ -38,7 +38,7 @@ class ShopMain extends Component {
     // console.log(products);
     
     return (
-      <Container className="text-light mb-5 pt-5 border">
+      <Container className="text-light mb-5 pt-5">
         <Row className="mb-5 text-center">
           <Col>
             <Dropdown isOpen={sortDropDownOpen} toggle={this.toggleSortDropDown}>
