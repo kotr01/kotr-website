@@ -8,7 +8,7 @@ import DerryBros from '../../images/derrybros.png';
 import FleetData from '../../images/fleetdata.png';
 import Irwin from '../../images/kenirwin.png';
 import Kmc from '../../images/KMC3.png';
-import TeLogo from '../../images/telogo.jpg';
+import TeLogo from '../../images/telogo.png';
 
 import styles from './Main.module.css';
 
