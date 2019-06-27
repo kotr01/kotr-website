@@ -26,6 +26,13 @@ module.exports = {
         apiKey: process.env.SNIPCART_API_TEST,
         autopop: true
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-107308251-6",
+        head: false
+      }
     }
   ]
 };
