@@ -14,7 +14,7 @@ const Index = ({ data }) => {
       <Helmet>
         <title>Kings of the Road</title>
       </Helmet>
-      <Header image={data.landingImage} />
+      {/* <Header image={data.landingImage} /> */}
       <CarouselHeader />
       <Main />
     </Layout>
