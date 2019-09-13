@@ -34,7 +34,7 @@ class ShopMain extends Component {
     const { sortDropDownOpen, sortBy } = this.state;
 
     const unsortedProducts = this.props.data.allContentfulProduct.edges;
-    const products = sortProducts(unsortedProducts, sortBy);
+    // const products = sortProducts(unsortedProducts, sortBy);
     // console.log(products);
     
     return (
@@ -64,7 +64,7 @@ class ShopMain extends Component {
         </Row>
         <Row>
           <Col>
-            {products.map(prod => (
+            {unsortedProducts.map(prod => (
               <ProductCard key={prod.node.contentful_id} data={prod.node} />
             ))}
           </Col>
