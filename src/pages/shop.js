@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import ShopMain from '../components/shop/ShopMain';
 
 const Shop = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <Layout>
       <Helmet>

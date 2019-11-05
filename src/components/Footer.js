@@ -17,7 +17,7 @@ const Footer = () => {
             <p className="m-0">&copy; Kings Of The Road 2019</p>
           </Col>
           <Col className="mb-3" md={4}>
-            <a className="mx-3" href="https://www.facebook.com/Kingoftheroadireland/">
+            <a className="mx-3" href="https://www.facebook.com/kingsoftheroadtv/">
               <img src={facebookLogo} width="32px" alt="" />
             </a>
             <a className="mx-3" href="https://www.youtube.com/channel/UCFg_p3JC9WE6egJXGrCwziQ">
