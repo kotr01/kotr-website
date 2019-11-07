@@ -3,7 +3,7 @@ import {
   Container
 } from 'reactstrap';
 
-import DerryBros from '../../images/derrybros.png';
+import DerryBros from '../../images/DerrysLogo.png';
 // import Junction20 from '../../images/junction20new.png';
 import FleetData from '../../images/fleetdata.png';
 import Irwin from '../../images/kenirwin.png';

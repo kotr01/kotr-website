@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 
 import Layout from '../components/Layout';
-import Header from '../components/landing/Header';
+// import Header from '../components/landing/Header';
 import Main from '../components/landing/Main';
 import CarouselHeader from '../components/landing/CarouselHeader';
 
